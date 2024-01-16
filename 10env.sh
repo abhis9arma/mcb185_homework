@@ -1,0 +1,1 @@
+echo $USER $HOME $SHELL $PWD $PATH

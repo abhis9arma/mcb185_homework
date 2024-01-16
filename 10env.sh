@@ -1,1 +1,1 @@
-echo $USER $HOME $SHELL $PWD $PATH
+echo "$USER $HOME $SHELL $PWD $PATH"

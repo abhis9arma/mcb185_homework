@@ -1,0 +1,10 @@
+Tue Jan 16 09:41:31 PST 2024
+abhisharma /Users/abhisharma /bin/zsh /Users/abhisharma/Code/mcb185_homework /usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin
+Darwin Abhis-MacBook-Pro.local 22.3.0 Darwin Kernel Version 22.3.0: Thu Jan  5 20:53:49 PST 2023; root:xnu-8792.81.2~2/RELEASE_X86_64 x86_64
+Python 3.9.6
+/Users/abhisharma/Code
+/Users/abhisharma/Code/mcb185_homework
+/Users/abhisharma/Code/mcb185_homework/.git
+/Users/abhisharma/Code/MCB185
+/Users/abhisharma/Code/MCB185/.git
+/Users/abhisharma/Code/MCB185/data

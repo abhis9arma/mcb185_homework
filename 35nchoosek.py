@@ -17,6 +17,6 @@ def nchoosek(n, k):
 		return nk
 	
 	
-print(nchoosek(7,5))
-print(nchoosek(8,4))
-print(nchoosek(3,0))
+print(nchoosek(7, 5))
+print(nchoosek(8, 4))
+print(nchoosek(3, 0))

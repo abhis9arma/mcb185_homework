@@ -56,13 +56,13 @@ def euler(limit):
 		e = e + 1 / factorial(n)
 	return e
 	
-#PerfectSquare
+#Perfect Square
 def perfectsquare(n):
 	root = math.sqrt(n)
 	if math.isclose(root, root // 1): return True
 	return False
 	
-#PrimeNumber
+#Prime Number
 def primenumber(n):
 	for den in range(2, n // 2):
 		if n % den == 0: return False

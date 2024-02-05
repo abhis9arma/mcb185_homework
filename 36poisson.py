@@ -1,6 +1,8 @@
 #Poisson by Abhi Sharma
 # (n^k e ^ -n/ k!)
 
+import math
+
 def factorial(x):
 	if x == 0: return 1
 	fac = 1
@@ -8,14 +10,8 @@ def factorial(x):
 		fac = fac * i
 	return fac
 	
-def euler(limit):
-	e = 0
-	for n in range(limit):
-		e = e + 1 / factorial(n)
-	return e
-	
 def poisson(n, k):
-	poisson = (n ** k * euler(1) ** -n)/ factorial(k)
+	poisson = (n ** k * math.e ** -n)/ factorial(k)
 	return poisson
 		
 print(poisson(5, 4))

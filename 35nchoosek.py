@@ -8,8 +8,7 @@ def factorial(x):
 	return fac
 	
 def nchoosek(n, k):
-	if k < 0 or k > n:
-		print("Invalid Input")
+	assert k >= 0
 	if k == 0 or k == n:
 		print("1")
 	else:
@@ -17,6 +16,7 @@ def nchoosek(n, k):
 		return nk
 	
 	
-print(nchoosek(7, 5))
+
 print(nchoosek(8, 4))
 print(nchoosek(3, 0))
+print(nchoosek(7, -1))

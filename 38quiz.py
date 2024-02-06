@@ -29,8 +29,8 @@ def pi(n):
 			x = sign * (1 / (i * 2 + 1))
 			y = degree * (4 / ((i * 2) * (i * 2 + 1) * (i * 2 + 2)))
 			result = x + result
-			sign = sign * -1
 			end = y + end
+			sign = sign * -1
 			degree = degree * -1
 		total = 1 + result
 		pi = total * 4

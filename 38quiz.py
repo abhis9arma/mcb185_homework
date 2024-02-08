@@ -37,4 +37,4 @@ def pi(n):
 		final = 3 + end
 		return pi, final
 
-print(pi(10))
+print(pi(1000000))

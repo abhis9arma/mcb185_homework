@@ -10,7 +10,7 @@ def factorial(x):
 def nchoosek(n, k):
 	assert k >= 0
 	if k == 0 or k == n:
-		print("1")
+		return("1")
 	else:
 		nk = factorial(n) / (factorial(k) * factorial(n - k))
 		return nk

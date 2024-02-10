@@ -1,15 +1,14 @@
-# 48report.md 
-# Abhi Sharma
+# 48report.md by Abhi Sharma
 
 ## 45dndstats.py
 
 ### 3D6: 3 six-sided dice
 
--10.499
+- 10.499
 
 ### 3D6r1: 3 six-sided dice, reroll 1s
 
--11.745
+- 11.745
 
 ### 3D6x2: pairs of 3 six-sided dice, taking max
 

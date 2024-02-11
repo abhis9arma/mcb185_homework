@@ -8,6 +8,6 @@ for x in range(1, limit):
 		print("Buzz")
 	if x % 3 == 0 and x % 5 == 0:
 		print("FizzBuzz")
-	else:
+	elif x % 3 != 0 and x % 5 != 0:
 		print(x)
 	

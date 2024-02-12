@@ -24,7 +24,7 @@ for i in range(limit):
 	d3 = random.randint(1, 20)
 	if d2 >= d3 and d2 >= 5:
 		safe2 += 1
-	if d3 > d2 and d3 >= 5:
+	elif d3 > d2 and d3 >= 5:
 		safe2 += 1
 	total2 += 1
 	probsafe2 = safe2 / total2
@@ -38,7 +38,7 @@ for i in range(limit):
 	d5 = random.randint(1, 20)
 	if d4 <= d5 and d4 >= 5:
 		safe3 += 1
-	if d5 < d4 and d5 >= 5:
+	elif d5 < d4 and d5 >= 5:
 		safe3 += 1
 	total3 += 1
 	probsafe3 = safe3 / total3
@@ -63,7 +63,7 @@ for i in range(limit):
 	d3 = random.randint(1, 20)
 	if d2 >= d3 and d2 >= 10:
 		safe5 += 1
-	if d3 > d2 and d3 >= 10:
+	elif d3 > d2 and d3 >= 10:
 		safe5 += 1
 	total5 += 1
 	probsafe5 = safe5 / total5
@@ -77,7 +77,7 @@ for i in range(limit):
 	d5 = random.randint(1, 20)
 	if d4 <= d5 and d4 >= 10:
 		safe6 += 1
-	if d5 < d4 and d5 >= 10:
+	elif d5 < d4 and d5 >= 10:
 		safe6 += 1
 	total6 += 1
 	probsafe6 = safe6 / total6
@@ -102,7 +102,7 @@ for i in range(limit):
 	d3 = random.randint(1, 20)
 	if d2 >= d3 and d2 >= 15:
 		safe8 += 1
-	if d3 > d2 and d3 >= 15:
+	elif d3 > d2 and d3 >= 15:
 		safe8 += 1
 	total8 += 1
 	probsafe8 = safe8 / total8
@@ -116,7 +116,7 @@ for i in range(limit):
 	d5 = random.randint(1, 20)
 	if d4 <= d5 and d4 >= 15:
 		safe9 += 1
-	if d5 < d4 and d5 >= 15:
+	elif d5 < d4 and d5 >= 15:
 		safe9 += 1
 	total9 += 1
 	probsafe9 = safe9 / total9

@@ -36,7 +36,7 @@ for i in range(limit):
 		d2 = random.randint(1,6)
 		if d1 >= d2:
 			total3 += d1
-		if d2 > d1:
+		else:
 			total3 += d2
 	average3 = total3 / limit
 print(average3)
@@ -50,11 +50,11 @@ for i in range(limit):
 	d4 = random.randint(1, 6)
 	if d1 <= d2 and d1 <= d3 and d1 <= d4:
 		total4 += d2 + d3 + d4
-	if d2 < d1 and d2 <= d3 and d2 <= d4:
+	elif d2 < d1 and d2 <= d3 and d2 <= d4:
 		total4 += d1 + d3 + d4
-	if d3 < d1 and d3 < d2 and d3 <= d4:
+	elif d3 < d1 and d3 < d2 and d3 <= d4:
 		total4 += d1 + d2 + d4
-	if d4 < d1 and d4 < d2 and d4 < d3:
+	elif d4 < d1 and d4 < d2 and d4 < d3:
 		total4 += d1 + d2 + d3
 average4 = total4 / limit
 print(average4)

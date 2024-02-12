@@ -9,7 +9,7 @@ while True:
 	z = (x ** 2 + y ** 2) ** 0.5
 	if z < 1:
 		inside += 1
-	if z > 1:
+	elif z > 1:
 		outside += 1 
 	ratio = inside / (inside + outside)
 	pi = 4 * ratio

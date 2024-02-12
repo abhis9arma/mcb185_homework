@@ -12,7 +12,7 @@ limit = 1000000
 #3D6
 for i in range(limit):
 	for j in range(3):
-		d1 = random.randint(1,6)
+		d1 = random.randint(1, 6)
 		total1 += d1
 	average1 = total1 / limit
 print(average1)
@@ -21,9 +21,9 @@ print(average1)
 #3D6r1
 for i in range(limit):
 	for j in range(3):
-		d1 = random.randint(1,6)
+		d1 = random.randint(1, 6)
 		if d1 == 1:
-			d1 = random.randint(1,6)
+			d1 = random.randint(1, 6)
 		total2 += d1
 	average2 = total2 / limit
 print(average2)
@@ -32,8 +32,8 @@ print(average2)
 #3D6x2
 for i in range(limit):
 	for j in range(3):
-		d1 = random.randint(1,6)
-		d2 = random.randint(1,6)
+		d1 = random.randint(1 ,6)
+		d2 = random.randint(1, 6)
 		if d1 >= d2:
 			total3 += d1
 		else:

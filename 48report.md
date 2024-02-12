@@ -30,6 +30,6 @@
 
 ## 47deathsaves.py
 
-- Probability dead : 0.400
-- Probability stable: 0.420
-- Probability revived: 0.180
+- P(dead): 0.400
+- P(stable): 0.420
+- P(revived): 0.180

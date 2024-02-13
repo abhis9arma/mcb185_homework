@@ -32,7 +32,7 @@ for i in range(limit):
 
 #disadvantage5
 safe3 = 0
-total3 = 0 	
+total3 = 0
 for i in range(limit):
 	d4 = random.randint(1, 20)
 	d5 = random.randint(1, 20)
@@ -71,7 +71,7 @@ for i in range(limit):
 
 #disadvantage10
 safe6 = 0
-total6 = 0 	
+total6 = 0
 for i in range(limit):
 	d4 = random.randint(1, 20)
 	d5 = random.randint(1, 20)
@@ -96,7 +96,7 @@ probsafe7 = safe7 / total7
 
 #advantage15
 safe8 = 0
-total8 = 0 
+total8 = 0
 for i in range(limit):
 	d2 = random.randint(1, 20)
 	d3 = random.randint(1, 20)
@@ -110,7 +110,7 @@ for i in range(limit):
 
 #disadvantage15
 safe9 = 0
-total9 = 0 	
+total9 = 0
 for i in range(limit):
 	d4 = random.randint(1, 20)
 	d5 = random.randint(1, 20)

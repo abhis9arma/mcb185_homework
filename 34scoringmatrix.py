@@ -14,8 +14,5 @@ for nt2 in nts:
 		else:
 			print("-1", end=" ")
 	print()		
-   		
-   	 
-
 	
 

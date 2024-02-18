@@ -10,23 +10,18 @@ people = int(sys.argv[3])
 
 total = 0
 
-
 for i in range(trials):
-	birthdays = i
-	birthdays = []
-	n = 0
-	l = 1
-	m = 0
+	# create lists with dates of birthdays
+	bds = []
 	for j in range(people):
-		day = random.randint(1, days)
-		birthdays.append(day)
-	for k in birthdays:
-		new = birthdays[l:]
-		if (int(birthdays[m])) in new:
-			n += 1
-		m += 1
-		l += 1
-	if n >= 1:
-		total += 1
-prob = total / trials
-print(prob * 100)
+		day = random.randint(0, days - 1)
+		# checks if the day is already within the list
+		if day in bds:
+			total += 1
+			break
+		else:
+			bds.append(day)
+prob = (total / trials) * 100
+print(prob)
+
+		

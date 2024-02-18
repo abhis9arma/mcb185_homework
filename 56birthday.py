@@ -10,6 +10,7 @@ people = int(sys.argv[3])
 
 total = 0
 
+
 for i in range(trials):
 	birthdays = i
 	birthdays = []

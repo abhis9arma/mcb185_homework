@@ -1,9 +1,9 @@
-#56birthday.py by Abhi Sharma
+#57birthday.py by Abhi Sharma
 
 import random 
 import sys
 
-trials = int(sys.argv[1
+trials = int(sys.argv[1])
 people = int(sys.argv[2])
 
 total = 0

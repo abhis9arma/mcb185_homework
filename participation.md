@@ -8,8 +8,8 @@
 | 5 |    |    |    |    |    |  1 |    |  1 |  2  | 1, 2
 | 6 |  4 |    |  1 |  2 |    |  1 |    |    |  8  | 
 | 7 |  4 |    |  1 |  2 |    |  1 |    |    |  8  | 
-| 8 | 
-| 9 |
+| 8 |  4 |    |    |  2 |    |  1 |    |    |  8  | 
+| 9 |  4 |    |  1 |  2 |    |  1 |    |    |  8  | 
 
 Notes:
 1. Answered questions regarding homework in discord 
